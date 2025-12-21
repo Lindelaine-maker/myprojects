@@ -1,0 +1,53 @@
+# i4DATA - .gitignore
+
+# Ambientes Python
+venv/
+env/
+ENV/
+.venv
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Outputs e resultados
+outputs/*.png
+outputs/*.jpg
+outputs/*.pdf
+!outputs/.gitkeep
+
+# IDE e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Distribuição / Packaging
+dist/
+build/
+*.egg-info/
+
+# Cache
+.cache/
+*.cache
+
+# Configurações locais
+.env
+.env.local
+config_local.py
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema Operacional
+Thumbs.db
+Desktop.ini
